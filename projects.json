@@ -5,12 +5,12 @@
             {
                 "title": "Простой калькулятор",
                 "description": "Сложение, умножение, вычитание и деление дробных и целых чисел",
-                "link": "math/default_calculator/index.html"
+                "link": "math/default_calculator/"
             },
             {
-                "title": "График функций",
-                "description": "Построитель графиков y = f(x)",
-                "link": "projects/function-plotter/"
+                "title": "Бинарный калькулятор",
+                "description": "Конвертер из двоичной системы в десятичную и наоборот",
+                "link": "math/binary_decimal_converter/"
             }
         ]
     },

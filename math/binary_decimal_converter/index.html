@@ -8,7 +8,27 @@
 </head>
 <body>
     
-    
+    <div class="calculator">
+        <h2>Двоичный калькулятор</h2>
+        
+        <select id="conversionType">
+            <option value="binToDec">Двоичная → Десятичная</option>
+            <option value="decToBin">Десятичная → Двоичная</option>
+        </select>
+        
+        <input type="text" id="inputValue" placeholder="Введите значение">
+        
+        <button onclick="calculate()">Перевести</button>
+        
+        <div class="result">
+            <strong>Результат:</strong>
+            <div id="result"></div>
+        </div>
+    </div>
+
+    <div class="back">
+        <a class="back-btn" href="../../index.html">Back to all projects</a>
+    </div>
     
     <script src="app.js"></script>
 </body>
