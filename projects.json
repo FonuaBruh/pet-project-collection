@@ -18,19 +18,19 @@
         "theme": "Algorithms",
         "projects": [
             {
-                "title": "Симулятор гравитации",
-                "description": "N-телная задача на JavaScript",
+                "title": "Симулятор быстрой и пузырьковой сортировки",
+                "description": "Сортировка выбором и сортировка пузырьком с визуальизацией",
                 "link": "algorithms/sorting_visualizer/"
             }
         ]
     },
     {
-        "theme": "Games",
+        "theme": "Colors",
         "projects": [
             {
-                "title": "Шахматы",
-                "description": "Консольная версия на TypeScript",
-                "link": "projects/chess-game/"
+                "title": "Динамическая цветная доска",
+                "description": "Реакция от доски на курсор",
+                "link": "color/color_board/"
             },
             {
                 "title": "Змейка",
