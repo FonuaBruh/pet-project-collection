@@ -1,0 +1,42 @@
+[
+    {
+        "theme": "Math",
+        "projects": [
+            {
+                "title": "Простой калькулятор",
+                "description": "Сложение, умножение, вычитание и деление дробных и целых чисел",
+                "link": "math/default_calculator/index.html"
+            },
+            {
+                "title": "График функций",
+                "description": "Построитель графиков y = f(x)",
+                "link": "projects/function-plotter/"
+            }
+        ]
+    },
+    {
+        "theme": "Physics",
+        "projects": [
+            {
+                "title": "Симулятор гравитации",
+                "description": "N-телная задача на JavaScript",
+                "link": "projects/gravity-simulator/"
+            }
+        ]
+    },
+    {
+        "theme": "Games",
+        "projects": [
+            {
+                "title": "Шахматы",
+                "description": "Консольная версия на TypeScript",
+                "link": "projects/chess-game/"
+            },
+            {
+                "title": "Змейка",
+                "description": "Классическая игра с подсчётом очков",
+                "link": "projects/snake-game/"
+            }
+        ]
+    }
+]
