@@ -38,22 +38,22 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function adjustCardHeights() {
-    const themeCards = document.querySelectorAll('.theme-card');
+    const themeCards = document.querySelectorAll(".theme-card");
     let maxHeight = 0;
 
-    themeCards.forEach(card => {
-        card.style.height = 'auto';
+    themeCards.forEach((card) => {
+        card.style.height = "auto";
     });
 
-    themeCards.forEach(card => {
+    themeCards.forEach((card) => {
         const cardHeight = card.getBoundingClientRect().height;
         if (cardHeight > maxHeight) maxHeight = cardHeight;
     });
 
-    themeCards.forEach(card => {
+    themeCards.forEach((card) => {
         card.style.height = `${maxHeight}px`;
     });
 }
 
-window.addEventListener('load', adjustCardHeights);
-window.addEventListener('resize', adjustCardHeights);
+window.addEventListener("load", adjustCardHeights);
+window.addEventListener("resize", adjustCardHeights);

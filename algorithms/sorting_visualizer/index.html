@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Визуализатор сортировок</title>
+</head>
+
+<body>
+
+	<div class="controls">
+		<button onclick="startBubbleSort()">Bubble Sort</button>
+		<button onclick="startQuickSort()">Quick Sort</button>
+		<button onclick="reset()">Reset</button>
+		<input type="range" id="speed" min="5" max="100" value="50">
+		<div class="back">
+			<a class="back-btn" href="../../index.html">Back to all projects</a>
+		</div>
+	</div>
+	<div id="array-container" class="container"></div>
+
+	<script src="app.js"></script>
+</body>
+
+</html>
