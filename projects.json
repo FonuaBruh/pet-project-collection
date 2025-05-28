@@ -33,9 +33,9 @@
                 "link": "color/color_board/"
             },
             {
-                "title": "Змейка",
-                "description": "Классическая игра с подсчётом очков",
-                "link": "projects/snake-game/"
+                "title": "CSS генератор градиентов",
+                "description": "Визуальный генератор градиентов",
+                "link": "color/css_gradient_generator/"
             }
         ]
     },

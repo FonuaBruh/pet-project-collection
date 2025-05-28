@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Генератор CSS-градиентов</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Генератор CSS-градиентов</h1>
+        
+        <div class="gradient-preview" id="gradientPreview"></div>
+        
+        <div class="controls">
+            <div class="control-group">
+                <label for="gradientType">Тип градиента:</label>
+                <select id="gradientType">
+                    <option value="linear">Линейный</option>
+                    <option value="radial">Радиальный</option>
+                </select>
+            </div>
+            
+            <div class="control-group">
+                <label for="angle">Угол (deg):</label>
+                <input type="range" id="angle" min="0" max="360" value="90">
+                <span id="angleValue">90</span>
+            </div>
+            
+            <div class="color-stops" id="colorStops">
+            </div>
+            
+            <button id="addColor">+ Добавить цвет</button>
+        </div>
+        
+        <div class="output">
+            <h3>CSS код:</h3>
+            <textarea id="cssCode" readonly></textarea>
+            <button id="copyCode">Копировать код</button>
+        </div>
+    </div>
+
+    <div class="back">
+			<a class="back-btn" href="../../index.html">Back to all projects</a>
+	</div>
+
+    <script src="app.js"></script>
+</body>
+</html>
