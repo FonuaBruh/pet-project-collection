@@ -12,6 +12,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #e2e2e2;
 }
 
 .header {
@@ -32,7 +33,7 @@ body {
 
 .theme-card {
     flex: 1 1 300px;
-    background: #fff;
+    background: #f8f8f8;
     border-radius: 8px;
     padding: 15px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);

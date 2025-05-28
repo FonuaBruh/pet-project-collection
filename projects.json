@@ -38,5 +38,15 @@
                 "link": "projects/snake-game/"
             }
         ]
+    },
+    {
+        "theme": "Tools",
+        "projects": [
+            {
+                "title": "Генератор сложных паролей",
+                "description": "Случайные пароли с уникальными символами",
+                "link": "tools/password_generator/"
+            }
+        ] 
     }
 ]
