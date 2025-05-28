@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Генератор мемов</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Comic+Neue:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="doodle doodle-1"></div>
+        <div class="doodle doodle-2"></div>
+
+        <h1>Генератор мемов</h1>
+
+        <div class="meme-generator">
+            <div class="meme-preview" id="memePreview">
+                <img id="memeImage" src="" alt="Выберите шаблон">
+                <div class="top-text" id="topText"></div>
+                <div class="bottom-text" id="bottomText"></div>
+            </div>
+
+            <div class="controls">
+                <div class="control-group">
+                    <label for="templateSelect">Шаблон:</label>
+                    <select id="templateSelect">
+                        <option value="">-- Выберите шаблон --</option>
+                    </select>
+                </div>
+
+                <div class="control-group">
+                    <label for="topTextInput">Верхний текст:</label>
+                    <input type="text" id="topTextInput" placeholder="Введите текст">
+                </div>
+
+                <div class="control-group">
+                    <label for="bottomTextInput">Нижний текст:</label>
+                    <input type="text" id="bottomTextInput" placeholder="Введите текст">
+                </div>
+
+                <div class="text-controls">
+                    <label>Цвет текста: <input type="color" id="textColor" value="#ffffff"></label>
+                    <label>Размер: <input type="range" id="textSize" min="10" max="50" value="30"></label>
+                </div>
+
+                <div class="button-group">
+                    <button id="generateBtn">Создать мем</button>
+                    <button id="downloadBtn" disabled>Открыть мем для скачивания</button>
+                    <button id="generateBtn">
+                        <a class="back-btn" href="../../index.html">Back to all projects</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
